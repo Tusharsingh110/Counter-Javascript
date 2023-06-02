@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 4vh auto;
+}
+
+h2 {
+    margin: 4vh auto ;
+    font-size: 45px;
+}
+body{
+    background-color:rgb(168, 228, 220) ;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    
+    border-radius: 20px;
+    width: 30%;
+    height: 500px;
+    max-width: 1240px;
+    background-color: rgb(90, 90, 212);
+    margin:4vh auto;
+    padding: 2vw 2vh;
+    text-align: center;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px;
+    width:12vw;
+    height: 9vh;
+}
+
+#increment-btn {
+    border-style: none;
+    background-color: rgb(59, 206, 86);
+    border-radius: 40px;
+}
+#decrement-btn {
+    border-style: none;
+    background-color: crimson;
+    border-radius: 40px;
+}
+#save-btn {
+    border-style: none;
+    background-color:dodgerblue;
+    border-radius: 40px;
+}
+
+
+#show-el {
+    padding: 2vh 2vw;
+    margin: 2vh 2vw;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button:hover {
+    transition-duration: 0.8s;
+    scale: 0.95;
+}

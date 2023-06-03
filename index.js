@@ -14,9 +14,14 @@ function decrement () {
 } 
 
 function save () {
+
     let message = count + ' - '
     saveEl.textContent += message
     countEl.textContent = 0
     count = 0
 }
 
+function clearscrn() {
+    console.log("funciton cvakker")
+    saveEl.textContent = "Previous counts: "
+}

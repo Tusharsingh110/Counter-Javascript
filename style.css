@@ -52,7 +52,9 @@ button {
 #save-btn {
     background-color:dodgerblue;
 }
-
+#clear-btn {
+    color: black;
+}
 
 #show-el {
     padding: 2vh 2vw;
@@ -92,7 +94,7 @@ button:hover {
         display: flex;
         flex-direction:column ;
         justify-items: center;
-        height: 75vh
+        height: fit-content;
     }
     h1 {
         font-size: 4.5vh ;
